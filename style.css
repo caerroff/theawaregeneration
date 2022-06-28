@@ -1,0 +1,33 @@
+#navbar{
+    background-color:rgb(131, 83, 131);
+    margin:0px;
+    padding:5px;
+}
+
+#buttons{
+    text-align:right;
+    margin : 1vw;
+    padding:2px;
+}
+
+#logo{
+    position:fixed;
+    width:5vh;
+    height:5vh;
+    margin-left:2vw;
+    margin-top:0.5vh;
+}
+
+.button{
+    margin-left: 4vw;
+    font-size: 2.5vw;
+    background-color:rgb(226, 181, 226);
+    border: solid black 1px;
+    border-radius:10px;
+    padding:3px;
+}
+
+body{
+    background-color:rgb(255, 238, 142);
+    margin:0px;
+}
