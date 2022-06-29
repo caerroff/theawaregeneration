@@ -37,15 +37,15 @@ class Article:
             count2+=1
         newHtml.write(newCode)
         newHtml.close()
-        if str(input("type y if it seems okay")) == "y":
+        if str(input("type y if it seems okay\n")) == "y":
             final = open(f"../{nameOfIndex}", "w")
             final.write(newCode)
             
 
 
-title = "The Super Article"
+title = "Coucou kerrouche"
 content = "This is a really cool article, everyone should read it, it has definitely not been made to test this script and it of course contains a lot of stuff."
-author = "me"
+author = "Hahaha"
 
 #print(createArticle(title, content, author, 1))
 
