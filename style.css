@@ -1,34 +1,36 @@
 #navbar{
     background-color:rgb(131, 83, 131);
     margin:0px;
-    padding:0.1vw;
+    padding:0.3vw;
 }
 
 #buttons{
     text-align:right;
     margin : 1vw;
-    padding-top:0.4vh;
-    padding-bottom:0.5vh;
+    padding-top:0vh;
+    padding-bottom:0.2vh;
     padding-right:5vw;
 }
 
 #logo{
-    position:fixed;
-    width:5vh;
-    height:5vh;
+    position:absolute;
+    width:4.4vw;
+    height:4.4vw;
     margin-left:2vw;
-    margin-top:0.5vh;
+    margin-top:0.2vh;
+    
 }
 
 #articles{
-    position:fixed;
+    position:absolute;
     text-align:center;
     margin-left:5vw;
     background-color:rgb(253, 245, 198);
     margin-top:5vh;
     padding:3vw;
-    padding-right:16vw;
-    padding-left:14vw;
+    padding-right:3vw;
+    padding-left:3vw;
+    overflow:scroll;
 }
 
 #aboutus{
@@ -36,9 +38,21 @@
     background-color: grey;
     margin-top:5vh;
     margin-left: 60vw;
-    margin-right:0px;
+    margin-right:10px;
     padding:2vw;
 
+}
+
+
+.article{
+    
+    border:solid black 0.3vw;
+    border-radius: 15px;
+    margin-top:2vh;
+    margin-bottom:2vh;
+    padding:0px;
+    width:40vw;
+    
 }
 
 .button{
@@ -57,8 +71,86 @@ body{
 }
 
 h1{
-    font-size:5vw;
+    font-size:2.5vw;
     text-align:center;
     color:rgb(51, 51, 51);
     text-decoration:underline rgb(51, 51, 51);
+}
+h2{
+    font-size:2vw;
+    padding:0px;
+    margin:0px;
+}
+h3{
+    font-size:1.5vw;
+    padding:0px;
+    margin:0px;
+}
+
+a:link{
+    text-decoration:none;
+}
+
+a:visited{
+    color:black;
+    text-decoration:none;
+}
+
+a:hover{
+    color:rgb(255, 0, 0);
+}
+
+a:active{
+    text-decoration: none;
+}
+
+.topic1{
+    position:static;
+    border-radius:10px;
+    margin:0px;
+    padding:8px;
+    background-color:rgb(222, 182, 235);
+    color:rgb(32, 32, 32);
+}
+
+.topic2{
+    position:static;
+    border-radius:10px;
+    margin:0px;
+    padding:8px;
+    background-color:rgb(182, 235, 186);
+    color:rgb(32, 32, 32);
+}
+
+.topic3{
+    position:static;
+    border-radius:10px;
+    margin:0px;
+    padding:8px;
+    background-color:rgb(133, 182, 255);
+    color:rgb(32, 32, 32);
+}
+
+.title{
+    color:rgb(27, 27, 27);
+    font-weight: 700;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content{
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+.author{
+    font-style: italic;
+    text-align:left;
+    color:rgba(54, 54, 54, 0.452);
+    
+}
+
+p{
+    font-size:1.4vw;
+    padding:0px;
+    margin:0px;
 }
