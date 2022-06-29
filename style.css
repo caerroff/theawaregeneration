@@ -51,7 +51,7 @@
     margin-top:2vh;
     margin-bottom:2vh;
     padding:0px;
-    width:40vw;
+    width:44vw;
     
 }
 
@@ -140,6 +140,11 @@ a:active{
 .content{
     font-family:'Times New Roman', Times, serif;
     text-align: justify;
+    max-height: 3.2vw;
+    max-width: 41vw;
+    
+    
+    margin-bottom:1vw;
 }
 
 .author{
@@ -153,4 +158,6 @@ p{
     font-size:1.4vw;
     padding:0px;
     margin:0px;
+    text-overflow:ellipsis;
+    overflow: hidden;
 }
