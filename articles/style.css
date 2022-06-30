@@ -43,11 +43,12 @@
 #actualBody{
     border: 1px solid black;
     box-shadow: 10px 10px 10px black;
-    background-color: rgb(233, 233, 233);
-    padding-left:3vw;
-    padding-right:5vw;
+    background-color: rgb(255, 255, 255);
+    padding-left:6vw;
+    padding-right:10vw;
     padding-top:0.5vw;
     padding-bottom:0.5vw;
+    margin-bottom:3vw;
 }
 
 .button{
@@ -84,8 +85,10 @@ h2{
 h3{
     font-size:1.1vw;
     padding:0px;
+    padding-top:3vw;
     margin:0px;
     font-style: italic;
+    font-weight: 300;
 }
 
 a:link{
@@ -142,9 +145,9 @@ a:active{
 }
 
 p{
-    color:rgb(48, 48, 48);
+    color:rgb(56, 56, 56);
     text-indent: 50px;
-    font-family:'Ubuntu','Times New Roman', Times, serif;
+    font-family:'Times New Roman', Times, serif;
     font-size:1.3vw;
     padding:0px;
     margin:0px;
